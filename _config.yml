@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "rlaghdcjf12"
 description              : "An amazing website."
-url                      : "https://rlaghdcjf12.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : #"https://rlaghdcjf12.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "평비"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/Genesis_Photo.jpg"
   bio              : "**평범함**이 모여 **비범함**을 만든다."
   location         : "어딘가"
   email            : "rlaghdcjf12@naver.com"
@@ -114,7 +114,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -130,7 +130,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "github.com/rlaghdcjf12"
+      url: "https://www.github.com/rlaghdcjf12"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -139,7 +139,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.instagram.com/k_hongcheol/""
 
 
 # Reading Files
