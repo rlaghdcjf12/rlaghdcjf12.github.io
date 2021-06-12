@@ -98,11 +98,11 @@ author:
   avatar           : "/assets/images/Genesis_Photo.jpg"
   bio              : "**평범함**이 모여 **비범함**을 만든다."
   location         : "어딘가"
-  email            : "rlaghdcjf12@naver.com"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:rlaghdcjf12@naver.com"
+      url: "mailto:rlaghdcjf12@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -114,10 +114,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://www.github.com/rlaghdcjf12"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/k_hongcheol/"
 
 # Site Footer
 footer:
@@ -130,7 +130,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://www.github.com/rlaghdcjf12"
+      url: "https://github.com/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -139,7 +139,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/k_hongcheol/"
+      url: "https://instagram.com/"
 
 
 # Reading Files
