@@ -60,7 +60,7 @@
     {% capture deprecation_warnings %}{% endcapture %}
 
     {% if include.baseurl %}
-        {% capture deprecation_warnings %}{{ deprecation_warnings }}<!-- jekyll-toc :: "baseurl" has been deprecated, use "base_url" instead -->{{ newline }}{% endcapture %}
+        {% capture deprecation_warnings %}{{ deprecation_warnings }}<!-- jekyll-: "baseurl" has been deprecated, use "base_url" instead -->{{ newline }}{% endcapture %}
     {% endif %}
 
     {% if include.skipNoIDs %}
