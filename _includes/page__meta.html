@@ -29,3 +29,6 @@
     {% endif %}
   </p>
 {% endif %}
+{% if post.date %}
+    <span class="page__meta-date"><i class="far fa-clock" aria-hidden="true"></i>{{ post.date | date: "%Y-%m-%d" }}</span>
+{% endif %}
