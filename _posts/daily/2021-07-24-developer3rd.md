@@ -11,7 +11,7 @@ tags: 커리어
   
 동생과 대화를 하는 중, 이런 비유를 들었었다.
   
-![minimal mistakes][ship]{: .align-center}
+![원양 어선][ship]{: .align-center}
 
 `원양어선이 너무 힘들어서 탈출했더니, 가라앉는 배에 탑승했다.`
   
