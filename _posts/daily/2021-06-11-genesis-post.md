@@ -29,4 +29,4 @@ def printHelloWorld():
 ```
 * * *
 <!-- URL -->
-[mm]: http://jekyllthemes.org/thumbnails/minimal-mistakes.png
+[mm]: ../../assets/images/minimal-mistakes.png
