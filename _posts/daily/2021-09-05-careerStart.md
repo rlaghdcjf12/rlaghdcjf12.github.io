@@ -2,8 +2,8 @@
 permalink: /daily/4
 title: "개발자 커리어 패스 설정"
 date: 2021-09-05 20:00:00 +0900
-categories: 평비챌린지
-tags: 1일1평범
+categories: 일상
+tags: 커리어
 ---  
 # 개괄
 - [평비 28일차](https://rlaghdcjf12.github.io/ordinary/28)와 [평비 29일차](https://rlaghdcjf12.github.io/ordinary/29)로부터 나는 개발자로서의 성장을 다짐했다.  
