@@ -5,8 +5,6 @@ main:
     url: /develop/
   - title: "🚩평비챌린지"
     url: /pyeongbee/
-  - title: "🏆성공실천"
-    url: /success/
   - title: "연도별"
     url: /year-archive/
   - title: "태그별"
@@ -23,3 +21,4 @@ main:
 #     url: /collection-archive/
 #   - title: "Sitemap"
 #     url: /sitemap/
+
