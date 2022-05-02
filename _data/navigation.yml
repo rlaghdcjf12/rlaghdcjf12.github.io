@@ -1,8 +1,4 @@
 main:
-  - title: "연도별"
-    url: /year-archive/
-  - title: "태그별"
-    url: /tags/
   # - title: "카테고리별"
   #   url: /categories/
   - title: "💻개발"
@@ -11,6 +7,10 @@ main:
     url: /pyeongbee/
   - title: "🏆성공실천"
     url: /success/
+  - title: "연도별"
+    url: /year-archive/
+  - title: "태그별"
+    url: /tags/
 # # main links
 # main:
 #   - title: "Quick-Start Guide"
