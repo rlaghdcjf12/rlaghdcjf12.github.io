@@ -3,10 +3,14 @@ main:
     url: /year-archive/
   - title: "태그별"
     url: /tags/
-  - title: "카테고리별"
-    url: /categories/
-
-
+  # - title: "카테고리별"
+  #   url: /categories/
+  - title: "💻개발"
+    url: /develop/
+  - title: "🚩평비챌린지"
+    url: /pyeongbee/
+  - title: "🏆성공실천"
+    url: /success/
 # # main links
 # main:
 #   - title: "Quick-Start Guide"
