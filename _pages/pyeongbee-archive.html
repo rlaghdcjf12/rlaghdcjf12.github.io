@@ -54,7 +54,7 @@ const handlePrevPage = (first = false) => {
 
   const render = (num) => {
     const posts = totalPosts.slice((num-1)*10, num*10)
-    document.querySelector('#posts').innerHTML = posts.join("")
+    document.querySelector('#posts').innerHTML = posts.join("");
   }
 
   initTotalPosts();
