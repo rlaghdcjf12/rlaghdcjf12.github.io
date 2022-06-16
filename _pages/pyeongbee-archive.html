@@ -4,7 +4,8 @@ permalink: /pyeongbee/
 title: "🚩평비챌린지"
 author_profile: true
 ---
-<script>const handlePrevPage = (first = false) => {
+<script>
+const handlePrevPage = (first = false) => {
     if (first) num = 1;
     else num = num > 1 ? num - 1 : 1;
     render(num)
@@ -53,8 +54,8 @@ author_profile: true
   }
 
   const render = (num) => {
-    const tp = totalPosts.slice((num-1)*10, num*10)
-    document.querySelector('#posts').innerHTML = tp.join("")
+    const posts = totalPosts.slice((num-1)*10, num*10)
+    document.querySelector('#posts').innerHTML = posts.join("")
   }
 
   initTotalPosts();
