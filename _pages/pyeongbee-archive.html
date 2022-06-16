@@ -8,13 +8,13 @@ author_profile: true
 const handlePrevPage = (first = false) => {
     if (first) num = 1;
     else num = num > 1 ? num - 1 : 1;
-    render(num)
+    render(num);
   }
 
   const handleNextPage = (last = false) => {
     if (last) num = totalPosts.length % 10 == 0 ? totalPosts.length / 10 : parseInt(totalPosts.length / 10) + 1;
     else num = num < totalPosts.length / 10 ? num + 1 : num;
-    render(num)
+    render(num);
   }
 </script>
 
@@ -53,7 +53,7 @@ const handlePrevPage = (first = false) => {
   }
 
   const render = (num) => {
-    const posts = totalPosts.slice((num-1)*10, num*10)
+    const posts = totalPosts.slice((num-1)*10, num*10);
     document.querySelector('#posts').innerHTML = posts.join("");
   }
 
