@@ -4,13 +4,59 @@ permalink: /pyeongbee/
 title: "🚩평비챌린지"
 author_profile: true
 ---
-{% include group-by-array collection=site.posts field="categories" %}
-{% for category in group_names %}
-  {% if category == '평비챌린지' %}
-    {% assign posts = group_items[forloop.index0] %}
-    <!-- <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2> -->
-    {% for post in posts %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endif %}
-{% endfor %}
+<script>const handlePrevPage = (first = false) => {
+    if (first) num = 1;
+    else num = num > 1 ? num - 1 : 1;
+    render(num)
+  }
+
+  const handleNextPage = (last = false) => {
+    if (last) num = totalPosts.length % 10 == 0 ? totalPosts.length / 10 : parseInt(totalPosts.length / 10) + 1;
+    else num = num < totalPosts.length / 10 ? num + 1 : num;
+    render(num)
+  }
+</script>
+
+<div class="custom_pagination">
+  <button onclick="handlePrevPage(true)"><<</button>
+  <button onclick="handlePrevPage()"><</button>
+  <button onclick="handleNextPage()">></button>
+  <button onclick="handleNextPage(true)">>></button>
+</div>
+<div class="container">
+  {% include group-by-array collection=site.posts field="categories" %}
+  {% for category in group_names %}
+    {% if category == '평비챌린지' %}
+      {% assign posts = group_items[forloop.index0] %}
+      <div id="posts">
+        {% for post in posts %}
+          {% include archive-single.html %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+
+<script>
+  let totalPosts = []
+  var num = 1;
+
+  const initTotalPosts = () => {
+    let rowPosts = document.querySelector('#posts').innerHTML;
+
+    rowPosts.replace(/\n/g, "").replace(/\r/g, "").split('</div>').forEach(e => {
+      totalPosts.push(e.trim() + '</div>')
+    });
+
+    totalPosts.pop();
+  }
+
+  const render = (num) => {
+    const tp = totalPosts.slice((num-1)*10, num*10)
+    document.querySelector('#posts').innerHTML = tp.join("")
+  }
+
+  initTotalPosts();
+  render(1);
+</script>
