@@ -49,7 +49,6 @@ const handlePrevPage = (first = false) => {
     rowPosts.replace(/\n/g, "").replace(/\r/g, "").split('</div>').forEach(e => {
       totalPosts.push(e.trim() + '</div>')
     });
-
     totalPosts.pop();
   }
 
