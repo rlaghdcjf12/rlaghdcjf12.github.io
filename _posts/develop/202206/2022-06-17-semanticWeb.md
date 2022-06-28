@@ -1,12 +1,13 @@
 ---
 permalink: /develop/2
-title: "시맨틱 웹 (Semantic Web)"
+title: '시맨틱 웹 (Semantic Web)'
 date: 2022-06-17 20:00:00 +0900
 categories: 개발
-tags: 웹
+tags: 웹 프론트엔드
 ---
 
 ## 시맨틱 웹이란?
+
 <main>
   - Semantic Web. 의미 있는 웹. <br>
   - 인덱싱 효율을 높여서 검색이 더 잘되도록 구성된 웹. 검색엔진이 웹페이지를 크롤링 할 때 이 웹페이지가 검색되기 위한 목차를 만드는 과정을 인덱싱이라고 한다. <br>
