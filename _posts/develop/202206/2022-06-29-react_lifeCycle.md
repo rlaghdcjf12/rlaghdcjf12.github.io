@@ -10,7 +10,7 @@ tags: 웹 프론트엔드
 
 ## 리액트의 Life Cycle과 Hook
 
-Life Cycle : 클래스형 컴포넌트에서 사용  
+**Life Cycle : 클래스형 컴포넌트에서 사용**  
 Hook : 함수형 컴포넌트에서 사용
 
 ## 리액트 컴포넌트의 라이프사이클
@@ -18,7 +18,7 @@ Hook : 함수형 컴포넌트에서 사용
 <img style='width: 80%; margin: 0 10%;' src='https://cdn.filestackcontent.com/ApNH7030SAG1wAycdj3H' alt='리액트 컴포넌트의 생명주기'/>
 
 <details>
-    <summary>구버전 라이프사이클</summary>
+    <summary>레거시(구버전) 라이프사이클</summary>
     <div>
         <img style='width: 80%; margin: 0 10%;' src='https://velog.velcdn.com/images/st2702/post/adbd06c3-50ad-4251-a374-57622e21bc12/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202020-10-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2011.12.17.png' alt='구버전 리액트 컴포넌트의 생명주기'/>
     </div>
