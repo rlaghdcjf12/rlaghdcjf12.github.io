@@ -50,6 +50,7 @@ const scrollRef = useRef(null);
 - .current 프로퍼티에 전달된 인자로 초기화된, 변경 가능한 ref 객체를 반환
 - 반환된 객체는 컴포넌트의 전 생애주기를 통해 유지
 
+다음 훅들은 내가 사용해보지 않아서 확실히 몰라 공부해보고 작성할 것이다.
 **4. CONTEXT HOOK - useContext()**
 
 **5. REDUCER HOOK - useReducer()**

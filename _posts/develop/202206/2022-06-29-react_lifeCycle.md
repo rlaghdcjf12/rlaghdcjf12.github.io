@@ -41,25 +41,25 @@ Hook : 함수형 컴포넌트에서 사용
     <div style='margin-left: 20px;'>
         <strong>1. constructor()</strong>
         <ul style='margin-left: 20px;'>
-            <li> 메소드 바인딩, state 초기화(생성자는 this.state를 직접 할당할 수 있는 유일한 곳)
-            <li> setState 사용 불가
-            <li> DOM 접근 불가
+            <li> 메소드 바인딩, state 초기화(생성자는 this.state를 직접 할당할 수 있는 유일한 곳)</li>
+            <li> setState 사용 불가</li>
+            <li> DOM 접근 불가</li>
         </ul>
     </div>
-    <div style='margin-left: 20px; color:lightgrey;'>
+    <div style='margin-left: 20px; color:lightyellow;'>
         <span>2. getDerivedStateFromProps(props, state)</span>
         <ul style='margin-left: 20px;'>
-            <li> 렌더링 시마다 실행됨
-            <li> 컴포넌트 인스턴스 접근 불가
-            <li> 이 메소드는 사용하지 않는 것을 권고
-            <li> 구버전의 componentWillReceiveProps와는 다르다. CWRP는 부모 컴포넌트가 재 렌더링 시에만 실행됨
+            <li> 렌더링 시마다 실행됨</li>
+            <li> 컴포넌트 인스턴스 접근 불가</li>
+            <li> 이 메소드는 사용하지 않는 것을 권고</li>
+            <li> 구버전의 componentWillReceiveProps와는 다르다. CWRP는 부모 컴포넌트가 재 렌더링 시에만 실행됨</li>
         </ul>
     </div>
     <div style='margin-left: 20px;'>
         <strong>3. componentDidMount()</strong>
         <ul style='margin-left: 20px;'>
-            <li> 외부에서 데이터를 가져오기 좋은 위치
-            <li> 데이터바인딩 가능 - 이 경우 Unmount시 바인딩 해제 필요
+            <li> 외부에서 데이터를 가져오기 좋은 위치</li>
+            <li> 데이터바인딩 가능 - 이 경우 Unmount시 바인딩 해제 필요</li>
         </ul>
     </div>
 </details>
@@ -72,20 +72,20 @@ Hook : 함수형 컴포넌트에서 사용
 
 <details>
     <summary>Update 단계 상세</summary>
-    <div style='margin-left: 20px; color:lightgrey;'>
+    <div style='margin-left: 20px; color:lightyellow;'>
         <span>1. shouldComponentUpdate</span>
         <ul style='margin-left: 20px;'>
-            <li> state/props의 변화가 컴포넌트의 출력에 영향을 미치는 지 확인 (기본값 true)
-            <li> false를 반환함으로써 componentWillUpdate, render, 그리고 componentDidUpdate가 호출되지 않음. (재 렌더링되지 않음)
-            <li> 이 메소드는 사용하지 않는 것을 권고
-            <li> 구버전의 componentWillReceiveProps와는 다르다. CWRP는 부모 컴포넌트가 재 렌더링 시에만 실행됨
+            <li> state/props의 변화가 컴포넌트의 출력에 영향을 미치는 지 확인 (기본값 true)</li>
+            <li> false를 반환함으로써 componentWillUpdate, render, 그리고 componentDidUpdate가 호출되지 않음. (재 렌더링되지 않음)</li>
+            <li> 이 메소드는 사용하지 않는 것을 권고</li>
+            <li> 구버전의 componentWillReceiveProps와는 다르다. CWRP는 부모 컴포넌트가 재 렌더링 시에만 실행됨</li>
         </ul>
     </div>
     <div style='margin-left: 20px;'>
         <strong>2. componentDidUpdate(prevProps, prevState, snapshot)</strong>
         <ul style='margin-left: 20px;'>
-            <li> 컴포넌트가 갱신되었을 때 DOM 조작 시 사용
-            <li> 이전 컴포넌트와 props/state를 비교하여 데이터 통신을 요청하는 데 사용
+            <li> 컴포넌트가 갱신되었을 때 DOM 조작 시 사용</li>
+            <li> 이전 컴포넌트와 props/state를 비교하여 데이터 통신을 요청하는 데 사용</li>
         </ul>
     </div>
 </details>
@@ -99,8 +99,8 @@ Hook : 함수형 컴포넌트에서 사용
     <div style='margin-left: 20px;'>
         <strong>1. componentWillUnmount(prevProps, prevState, snapshot)</strong>
         <ul style='margin-left: 20px;'>
-            <li> 컴포넌트가 마운트 해제되기 직전 호출됨
-            <li> 타이머 제거, 네트워크 요청 취소, 이전에 등록한 데이터 바인딩 해제 등 정리 작업 시 사용
+            <li> 컴포넌트가 마운트 해제되기 직전 호출됨</li>
+            <li> 타이머 제거, 네트워크 요청 취소, 이전에 등록한 데이터 바인딩 해제 등 정리 작업 시 사용</li>
         </ul>
     </div>
 </details>
