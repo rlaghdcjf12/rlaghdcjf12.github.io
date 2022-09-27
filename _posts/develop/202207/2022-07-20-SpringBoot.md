@@ -22,4 +22,8 @@ tags: 웹 백엔드
 
 ![리액트-스프링부트][리액트-스프링부트]{: .align-center}
 
+솔직히 백날천날 구조를 눈으로 보기만 하면 머리에 안 들어온다. 현재 프로젝트를 진행하면서 이 구조를 몸으로 체득했다.
+- 리액트와 같은 프론트엔드에서 API를 호출한다. 가령 [GET] /exchange/trading/coin/btcusd 라는 API라고 해보자. 거래소에서 거래를 위해 btc를 usd단위로 하는 코인의 정보를 GET한다는 것이다. (이처럼 uri 설계를 할 때는 굉장히 직관적으로 네이밍을 하는 것이 BEST이다.)
+- 그러면 스프링부트에서 coinRestController.java에 해당 uri path를 찾아서 service를 호출하게 됩니다.
+
 [리액트-스프링부트]: ../../../assets/images/post/Develop/react-springBoot.png

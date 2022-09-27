@@ -7,7 +7,6 @@ tags: 웹 프론트엔드
 ---
 
 ## 시맨틱 웹이란?
-
 <main>
   - Semantic Web. 의미 있는 웹. <br>
   - 인덱싱 효율을 높여서 검색이 더 잘되도록 구성된 웹. 검색엔진이 웹페이지를 크롤링 할 때 이 웹페이지가 검색되기 위한 목차를 만드는 과정을 인덱싱이라고 한다. <br>
@@ -18,7 +17,7 @@ tags: 웹 프론트엔드
 </center>
 
 <details>
-  <summary>시맨틱 태그 종류</summary>
+  <summary><span style='text-decoration:underline;'>시맨틱 태그 종류에 대해 알아보기</span></summary>
   <p>
     - <strong>header</strong> : 머리글, 제목, 헤더 <br>
     - <strong>nav</strong> : 네비게이션, 목차, 리스트 등 다른 페이지로의 이동을 위한 링크 공간을 위주로 표현하는 태그 <br>
@@ -39,7 +38,7 @@ tags: 웹 프론트엔드
 </details>
 
 <details>
-  <summary>시맨틱 웹 장점</summary>
+  <summary><span style='text-decoration:underline;'>시맨틱 웹 장점은?</span></summary>
   <p>
     1. 검색 엔진 최적화 (SEO) : 검색 엔진 인덱싱 시 전달하고 싶은 의미 전달 가능<br>
     2. 유지보수 편리 : 가독성 있는 웹 태그
